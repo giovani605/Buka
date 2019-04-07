@@ -4,7 +4,7 @@ import BookList from './BookList'
 import AuthorList from './AuthorList'
 
 export default {
-    template: `<div class="sidebar">                    
+        template: `<div class="sidebar">                    
                     <input type="text" class="search-box" placeholder="Search..." @input="bookSearching" />
                     <div style="height: calc(100% - 145px)">
                         <h5>Book Lists <span v-show="bookLists.length">{{ bookLists.length }}</span></h5>
